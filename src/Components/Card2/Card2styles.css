@@ -8,7 +8,8 @@
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:40px;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .Project-Card{
     background-color: #1a1919;
@@ -22,15 +23,16 @@
 
 }
 
-.Project-Detail{
-    font-size: 1rem;
-    text-align:"justify-content";
+.Project-Detail p{
+    font-size: 0.9rem;
+    text-align: justify;
     padding-bottom: 1rem;
 
 }
 .Project-Title{
     color:#fff;
-    padding:1rem 0rem
+    padding:1rem 0rem;
+    font-size:1.2rem
 }
 
 @media screen and (max-width:640px) {
@@ -40,3 +42,15 @@
     }
     
 }
+table, tr, th, td{
+    color:#fff;
+    border-color: #fff;
+    border: 0.3rem solid;
+    background-color: #1a1919;
+    align-content: center;
+    margin-left: 7rem;  
+    align-items: center;   
+}
+th {
+    height: 70px;
+  }

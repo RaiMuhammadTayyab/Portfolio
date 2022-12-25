@@ -1,19 +1,18 @@
 .Hero-Image{
     max-width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: rgba( 0,0,0,0.4);
-    position: relative;   
+    position: relative; 
+    
 }
 .Heading{
     width: 100%;
     height: 100%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center
-
+    align-items: center;
+    justify-content:center ;
 }
-
 .Hero-Image::before{
     content:"";
     width: 100%;
@@ -30,7 +29,61 @@
 }
 .Hero-Image h1{
     font-size: 2.5rem;
+    margin-top: 4rem;
+}
+.Hero-Image h4{
+    color: rgb(248,217,18);
+    justify-content:baseline;
+    margin: 0.5rem;
+    line-height: 25px;
+
+    
+
+
 }
 .Hero-Image p{
     font-size: 1.5rem;
 }
+.Profile{
+    font-size: 1rem;
+    color :#fff;
+    text-align:justify;
+    display:grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-gap:20px ;
+    padding: 1rem,2rem;
+    flex-direction:row ;
+}
+.Button .Btu{
+    margin: 0.5rem 0.6rem;
+    width: 25%;
+      
+}
+.Button{
+   align-items: center;
+   margin-top: 5rem;
+   justify-content: center;
+   text-align: center;
+
+}
+ 
+.CV {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;}
+
+     .doc {
+        justify-content:center;
+        align-items: center;
+        margin-left: 22%;
+        transition: 0.2s;
+    }
+
+
+    
+     
+
+
+
+

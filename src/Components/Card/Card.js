@@ -2,17 +2,22 @@ import React from 'react'
 import { Cardwork } from './Cardwork'
 import CardData from './Carddata'
 
+
 export const Card = () => {
   return (
         <div className='Card-Container'>
         <h1 className="Card-Heading">Projects.</h1> 
         <div className='Project-Container'>
-        {CardData.map((Item,ind)=>{
+      
+
+  {CardData.map((Item,ind)=>{
 return(
   <Cardwork    
   key={ind}
   Srcimg={Item.imgsrc}
   title={Item.title}
+  Area={Item.Area}
+  Date={Item.Date}
   text={Item.text}
   view={Item.view}
   
@@ -21,6 +26,9 @@ return(
 
 
         })}
+  
+
+
         </div>
         </div>
 

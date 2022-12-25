@@ -24,9 +24,10 @@ const Footer = () => {
 </div>
 
 <div className='Right'>
-  <h4> About the Compnay</h4>
-  <p>This a Message of  Rai Sohail Ahmad Director
-    <br/> Murray Darling Authority </p>
+  <h4>SOHAIL RAI </h4>
+  <p> MBA (Australia); PhD Engineering (Japan);<br/>MSc & BSc Engineering (Pakistan)
+
+    <br/> Director, Murray Darling Basin Authority, Australia</p>
   <div className='Social'>
   <FaTwitter size={20} style={{ color:"#fff", marginRight:"2rem"}}/>
   <FaLinkedin size={20} style={{ color:"#fff", marginRight:"2rem"}}/>

@@ -11,16 +11,18 @@ body{
   background-color: black;
 }
 
-h1, h4, a ,p{
+h1,h2, h4, a,p {
 
   color:white;
   text-decoration: none;
 
 }
+
 .Btu{
   padding :12px 32px;
-  color: #222;
-  background-color: rgb(248,217,18);
+  color: #222; 
+   background-color: rgb(248,217,18);
+
   text-transform: uppercase;
   border:1px solid #fff;
   cursor:pointer;
