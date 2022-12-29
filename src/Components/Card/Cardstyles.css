@@ -6,24 +6,28 @@
     max-width: 1040px;
     margin:auto;
     display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:40px;
-    padding-bottom: 5rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:5px;
+    padding-bottom: 1.5rem;
+
+
 }
 .Project-Card{
-    background-color: #1a1919;
-    padding: 1.2rem 1.5rem;
+    padding: 1rem 1rem;
+    background-color: black;
 }
 .Project-Card img{
     width: 100%;
 }
 .Pro-Btu{
-    margin-top: 1rem;
+    margin-left:2rem;
+    margin-bottom: 1.5rem;
+    
 
 }
 
 .Project-Detail{
-    font-size: 1rem;
+    font-size: 1rem 0;
     text-align:"justify-content";
     padding-bottom: 1rem;
 
@@ -38,5 +42,6 @@
         max-width:90%;
         grid-template-columns: 1fr;
     }
+    
     
 }

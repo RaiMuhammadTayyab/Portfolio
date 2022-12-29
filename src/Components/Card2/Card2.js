@@ -2,12 +2,13 @@ import React from 'react'
 import {Cardwork2} from"./Cardwork2"
 import {CardData2,cardData3} from './Carddata2'
 import "./Card2styles.css"
+import {Link} from "react-router-dom"
 
 
 export const Card2 = () => {
   return (
         <div className='Card-Container'>
-        <h1 className="Card-Heading">Education.</h1> 
+        <h1 className="Card-Heading">EDUCATION.</h1> 
         <div className='Project-Container'>
   {CardData2.map((Item,ind)=>{
 return(
@@ -20,8 +21,11 @@ return(
   /> 
 )})}
    </div>
+   <div className='Pro-Btu'>
+        <Link className="Btu"to ="/CV" > See Appendix-A (DETAILS)</Link>
+      </div>
    <div>
-<h1 className="Card-Heading">Career Progression.</h1> 
+<h1 className="Card-Heading">CAREER.</h1> 
 <table>
   <thead>
     <tr>
@@ -37,11 +41,15 @@ return(
       <td>{items.Dates}</td>
       <td>{items.Organisation}</td>
       </tr>
+    
     </tbody>
   })}
-   
+  </table>
+  <br/>
+  < div className='BTN'> <Link className='Btu' to="/CV/14">See Appendix-B(DETAILS)</Link>
+  </div> 
   
-</table>
+
 </div>
  </div>      
   )

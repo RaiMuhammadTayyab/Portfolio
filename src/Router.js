@@ -15,7 +15,7 @@ const Routex = () => {
                 <Route path="/About" element={<About/>}/>
                 <Route path="/Professional" element={<Professional/>}/>
                 <Route path="/Contact" element={<Contact/>}/>
-                <Route path="/CV" element={<CV/>}/>
+                <Route path="/CV"element={<CV/>}/>
                 <Route path="*"element={()=><h2>404 not Found</h2>}/>
             </Routes>
         </Router>

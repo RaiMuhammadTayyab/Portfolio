@@ -1,0 +1,37 @@
+
+.Head{
+    text-align: center;
+    margin-top: 2rem;
+}
+.Pic{
+    
+    padding: 1rem 1rem;
+    
+    
+}
+.Pic img{
+    width: 100%;
+    justify-content: center;
+    padding: auto;
+    margin-top: 2rem;
+
+}
+.Container{
+    max-width: 1040px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    padding-bottom: 1.5rem;
+
+}
+.HSC{
+    margin-left: 17rem
+    ;
+}
+.Awd_con{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+
+}

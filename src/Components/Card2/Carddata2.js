@@ -15,8 +15,13 @@ import saitama from "../../Assets/ST2.jpg"
         University: "Saitama University, Japan." 
     }, {
         imgsrc:Taxila,
-        Degree : "MSc Engineering, BSc Engineering",
+        Degree : "MSc Engineering",
         Dates :  "1999-2001,1989-1993",
+        University: "University of Engg&Tech,Taxila Pakistan" 
+    }, {
+        imgsrc:Taxila,
+        Degree : " BSc Engineering",
+        Dates :  "1989-1993",
         University: "University of Engg&Tech,Taxila Pakistan" 
     }, 
 ]
