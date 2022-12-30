@@ -79,13 +79,10 @@ Button.Btu{
 }
      .doc {
         justify-content:center;
-        align-items: center;
-        margin-left: 22%;
-        transition: 0.2s;
-        width: 100%;
-        height: auto;
-        overflow: hidden;
         margin-bottom: 1.5rem;
+        
+
+    
     }
 
     .page_doc{
@@ -112,11 +109,21 @@ Button.Btu{
     
     .intro h3{
        font-size:0.8rem;
-       margin:0 0 2rem
+       margin:0 0.5rem
 
     }
 }
+@media screen and (max-width:320px){
+    .doc{
+        margin-left:1%;
+        margin-right: 5%;
+    }
+}
     
-
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 80% !important;
+}
 
 

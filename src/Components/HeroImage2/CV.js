@@ -61,10 +61,10 @@ function CV() {
       </div>
       </div>
       </div>
-      <p className='page_doc'>Page{pageNumber} of {numPages}</p>
+      <p className='page_doc'>Page {pageNumber} of {numPages}</p>
       <div className="doc">
-      <Document  file={CV2} onLoadSuccess={OnDocumentLoadSuccess}>
-        <Page size="A4" pageNumber={pageNumber} />
+      <Document file={CV2} onLoadSuccess={OnDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
     </Document>
 
     </div>
