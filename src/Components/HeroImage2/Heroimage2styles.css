@@ -38,10 +38,6 @@
     justify-content:baseline;
     margin: 0.5rem;
     line-height: 25px;
-
-    
-
-
 }
 .Hero-Image p{
     font-size: 1.5rem;
@@ -56,32 +52,31 @@
     padding: 1rem,2rem;
     flex-direction:row ;
 }
-.Button .Btu{
-    margin: 0.5rem 0.6rem;
-    width: 15%;
       
-}
+
 .Button{
    display:grid;
-   grid-template-columns: 1fr;
-   flex-direction:row ;
    justify-content: center;
-   grid-gap:20px;
+   grid-template-columns: repeat(2,1fr);
    align-items: center;
-   margin-top: 1rem;
+   justify-content: center;
+   flex-direction: row;
+   margin:1.5rem;
+   margin-left: 3rem;
+
+}
+Button.Btu{
+    margin: 1rem;
+    height:3rem;
+    width:10rem
+    
 }
 .CV {
     width: 100%;
     height: 100%;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
     
     
 }
-
-
      .doc {
         justify-content:center;
         align-items: center;
@@ -98,6 +93,30 @@
     }
      
 
+.intro h3{ 
+    color:rgb(248,217,18);
+    margin: 0 0.5rem;
+    text-align:justify;
+    justify-content: first baseline;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:640px){
+    
+   .Hero-Image h1{
+        font-size: 2.5rem;
+        margin-top: 6rem;
+    }
+    .Hero-Image p{
+        font-size: 1rem;
+    }
+    
+    .intro h3{
+       font-size:0.8rem;
+       margin:0 0 2rem
+
+    }
+}
+    
 
 
 

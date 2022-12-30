@@ -35,3 +35,14 @@
     margin-top: 2rem;
 
 }
+@media screen and (max-width:640px) {
+    .Container{
+        max-width:90%;
+        grid-template-columns: 1fr;
+    }
+    .HSC{
+        margin-left: 1rem;
+
+    }
+    
+}

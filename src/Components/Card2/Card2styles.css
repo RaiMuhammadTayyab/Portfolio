@@ -8,19 +8,20 @@
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:10px;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 .Project-Card{
-    background-color: #1a1919;
+    background-color:black;
     padding: 1.2rem 1.5rem;
 }
 .Project-Card img{
     width: 100%;
 }
-.Pro-Btu{
-    margin-top: 1rem;
-    justify-items: center;
-}
+
+ .Pro-btu{
+    margin-left:1.5rem
+    }
+
 
 .Project-Detail p{
     font-size: 0.9rem;
@@ -34,28 +35,44 @@
     font-size:1.2rem
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:640px){
     .Project-Container{
         max-width:90%;
         grid-template-columns: 1fr;
+        margin-bottom: 1.2rem;
     }
+    table{
+        max-width:90%
+    }
+
     
+
+ th,td{
+    font-size: 0.7rem;   
 }
-table, tr, th, td{
+}
+table{
+    max-width: 1040px;
+    margin:auto;
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    }
+
+th{
+    background-color:rgb(60, 179, 60, 0.653);
+    font-size: 1.2rem;
     color:#fff;
     border-color: #fff;
-    border: 0.3rem solid;
-    background-color: #1a1919;
-    align-content: center;
-    margin-left: 7rem;  
-    align-items: center;   
+    height: 80px;
+    border:0.4rem solid
 }
-th {
-    height: 70px;
-  }
-  .BTN {
-    justify-content: center;
-    align-items: center;
-    margin-left: 11%;
-    padding-bottom: 1.5rem;
-  }
+td{
+    background-color:rgba(40, 0, 255, 01) ;
+    height: 50px;
+    color:#fff;
+    border-color: #fff;
+    border:0.3rem solid
+}
+
+
+  

@@ -1,10 +1,11 @@
-import React,{ useState} from 'react'
-import{Document,Page} from 'react-pdf/dist/esm/entry.webpack'
+import React,{useState} from 'react'
+import {Document, Page} from "react-pdf/dist/esm/entry.webpack"
+//import { Document,Page } from 'react-pdf/dist/entry.parcel';
+//pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import CV2 from "../../Assets/Dr Sohail.pdf"
 import './Heroimage2styles.css'
 import Navbar from '../NavBar/Navbar'
 import Footer from '../Footers/Footer'
-//import { useParams } from 'react-router-dom'
 import { Heroimage2 } from './Heroimage2'
 
  
@@ -44,11 +45,13 @@ function CV() {
       <Heroimage2 Heading={ "CURRICULUM VITAE"} text={"DR SOHAIL RAI"}/>
       <div className='CV'>
       <div className='Button'>
+      <div >
+      <button className='Btu'onClick={()=>turnPage(Right)}>Next</button>
+      <button className='Btu' onClick={()=>turnPage(Left)}>Previous</button>
       <div>
-      <button className='Btu'onClick={() => turnPage(Right)}>Next</button>
-      <button className='Btu' onClick={() => turnPage(Left)}>Previous</button>
       <button className='Btu'onClick={()=> setPageNumber(3)}>Appendix-A</button>
       <button className='Btu'onClick={()=> setPageNumber(7)}>Appendix-B</button>
+      </div>
       </div>
       <div>
       <button className='Btu'onClick={()=> setPageNumber(9)}>Appendix-C</button>
@@ -58,7 +61,7 @@ function CV() {
       </div>
       </div>
       </div>
-      <p className='page_doc'>Page {pageNumber} of {numPages}</p>
+      <p className='page_doc'>Page{pageNumber} of {numPages}</p>
       <div className="doc">
       <Document  file={CV2} onLoadSuccess={OnDocumentLoadSuccess}>
         <Page size="A4" pageNumber={pageNumber} />

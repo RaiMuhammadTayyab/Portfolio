@@ -18,7 +18,8 @@ const useStyles = makeStyles({
     height: 330,
    
   },
-  
+    
+    
 });
 
 export default function Award2( props) {
@@ -32,7 +33,7 @@ export default function Award2( props) {
           image={props.img}
           title="Contemplative Reptile"
         />
-        <CardContent className={classes.tex}>
+        <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
             {props.text}
           </Typography>

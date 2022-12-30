@@ -6,8 +6,10 @@ export  const Heroimage2 = (props) =>{
     <div className='Hero-Image'>
     <div className='Heading'>
     <h1> {props.Heading}</h1>
-     <p>{props.text}</p>  
+     <p>{props.text}</p>
+     <div>  
      {props.intro}
+     </div>
     </div>
   
   </div>

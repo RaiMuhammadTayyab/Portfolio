@@ -7,12 +7,14 @@ import {Link} from "react-router-dom"
 
 export const Card2 = () => {
   return (
-        <div className='Card-Container'>
+  
+        <div>
         <h1 className="Card-Heading">EDUCATION.</h1> 
         <div className='Project-Container'>
   {CardData2.map((Item,ind)=>{
 return(
-  <Cardwork2    
+  <Cardwork2  
+
   key={ind}
    Srcimg={Item.imgsrc}
   Degree={Item.Degree}
@@ -21,11 +23,11 @@ return(
   /> 
 )})}
    </div>
-   <div className='Pro-Btu'>
+   <div className='Pro-btu'>
         <Link className="Btu"to ="/CV" > See Appendix-A (DETAILS)</Link>
-      </div>
-   <div>
+      </div>      
 <h1 className="Card-Heading">CAREER.</h1> 
+<div className='table_container '>
 <table>
   <thead>
     <tr>
@@ -45,13 +47,11 @@ return(
     </tbody>
   })}
   </table>
-  <br/>
-  < div className='BTN'> <Link className='Btu' to="/CV/14">See Appendix-B(DETAILS)</Link>
-  </div> 
-  
-
-</div>
- </div>      
+  </div>
+  < div className='Pro-btu'> 
+  <Link className='Btu' to="/CV/14">See Appendix-B(DETAILS)</Link>
+  </div>
+  </div>
   )
 }
 

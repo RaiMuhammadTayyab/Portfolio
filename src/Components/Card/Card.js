@@ -21,10 +21,7 @@ return(
   
   />
 )})}
-
-
 </div>
-
 <div className='Pro-Btu'>
   <NavLink  to="/CV" className="Btu">See Appendix-E(Detials)</NavLink>
  </div>

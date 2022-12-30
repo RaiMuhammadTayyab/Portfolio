@@ -7,7 +7,7 @@ import saitama from "../../Assets/ST2.jpg"
         imgsrc:Canberra,
         Degree : "MBA",
         Dates :  "2015-2018",
-        University: "University of Canberra Australia" 
+        University: "University of Canberra, Australia" 
     }, {
         imgsrc:saitama,
         Degree : "PhD Engineering",
@@ -16,13 +16,13 @@ import saitama from "../../Assets/ST2.jpg"
     }, {
         imgsrc:Taxila,
         Degree : "MSc Engineering",
-        Dates :  "1999-2001,1989-1993",
-        University: "University of Engg&Tech,Taxila Pakistan" 
+        Dates :  "1999-2001",
+        University: "UET,Taxila, Pakistan" 
     }, {
         imgsrc:Taxila,
         Degree : " BSc Engineering",
         Dates :  "1989-1993",
-        University: "University of Engg&Tech,Taxila Pakistan" 
+        University: "UET,Lahore, Pakistan" 
     }, 
 ]
 

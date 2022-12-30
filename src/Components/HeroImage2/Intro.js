@@ -1,20 +1,10 @@
 import React from 'react'
-import   "./Heroimage2styles.css" 
-import AnimatedText from 'react-animated-text-content'
+import"./Heroimage2styles.css"
 
 const Intro = () => {
   return (
-    <AnimatedText
-    style={{color:"rgb(248,217,18)",fontSize:'1.3rem'}}
-    type='chars'
-    interval={0.04}
-    duration={0.8}
-    animation={{
-      y: '100px',
-      ease: 'ease', 
-    }}
-  > 
-  
+    <div className='intro'>
+    <h3>
     "Sohail Rai has more than 25 years’ work 
     experience in planning, managing and delivering 
     projects. From the past 13 years he has been 
@@ -48,9 +38,9 @@ const Intro = () => {
     universities and reviews studies of their PhD 
     students and frequently publishes his research 
     findings. He is also international reviewer of well 
-    renowned technical journal"
-  
-    </AnimatedText>
+    renown
+    </h3>
+    </div>
   )
 }
 
