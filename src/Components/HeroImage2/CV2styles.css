@@ -1,0 +1,42 @@
+.CV {
+    max-width: 1040px;
+    margin: 1rem; 
+    justify-content: center; 
+
+    
+    
+}
+.Button{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat (2,1fr);
+    flex-direction: column;
+ 
+ }
+ Button.Btu{
+     height:3rem;
+     width:10rem;
+     margin:1rem
+     
+ }
+ .doc {
+        
+        margin-bottom: 1.5rem;
+ }
+  
+.react-pdf__Page__canvas {
+margin: 0 auto;
+width: 70% !important;
+height: 70%!important;
+
+}
+
+    
+@media screen and (max-width:640) {
+
+
+ .CV{
+    max-width: 90%;
+ }
+ 
+ }

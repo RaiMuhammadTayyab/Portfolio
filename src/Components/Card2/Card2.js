@@ -49,7 +49,7 @@ return(
   </table>
   </div>
   < div className='Pro-btu'> 
-  <Link className='Btu' to="/CV/14">See Appendix-B(DETAILS)</Link>
+  <Link className='Btu' to="/CV">See Appendix-B(DETAILS)</Link>
   </div>
   </div>
   )

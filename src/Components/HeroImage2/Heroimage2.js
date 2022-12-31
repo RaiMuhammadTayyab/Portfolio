@@ -5,7 +5,7 @@ export  const Heroimage2 = (props) =>{
   return (
     <div className='Hero-Image'>
     <div className='Heading'>
-    <h1> {props.Heading}</h1>
+    <h1>{props.Heading}</h1>
      <p>{props.text}</p>
      <div>  
      {props.intro}

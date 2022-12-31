@@ -43,7 +43,7 @@ export const Cardwork = ({ Srcimg,title,text,Date,Area}) => {
   };
   return (
         <div className='Project-Card'>
-        <img className='Img-wind' src={Srcimg} alt="wind"/>
+        <img src={Srcimg} alt="wind"/>
         <h2 className='Project-Title'>{title}</h2> 
       <Card className={classes.root}>
       

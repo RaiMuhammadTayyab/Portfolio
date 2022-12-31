@@ -9,7 +9,7 @@ const Professional = () => {
   return (
     <div>
       <Navbar/>
-      <Heroimage2 Heading={'Professional Contributions'} text={"These are Glimps of my Contributions"}/>
+    <Heroimage2 Heading={'Professional Contributions'} text={"These are Glimps of my Contributions"}/>
      <ALL/>
      <AFL2/>
       <Card/>

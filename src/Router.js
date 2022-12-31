@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Professional from "./Pages/Professional"
 import Contact from "./Pages/Contact"
-import CV from"./Components/HeroImage2/CV"
+import CV from"./Pages/CV"
 const Routex = () => {
   return (
     <div>

@@ -38,6 +38,14 @@ const Navbar = () => {
         Professional
         </Link>
     </li>
+
+    <li>
+        <Link to="/CV">
+        Resume,
+        </Link>
+    </li>
+
+
     <li>
         <Link to="/Contact">
         Contact
