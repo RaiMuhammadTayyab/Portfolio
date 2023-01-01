@@ -39,5 +39,10 @@ height: 70%!important;
  .CV{
     max-width: 100%;
  }
+ .Button{
+    grid-template-columns: 1fr;
+    flex-direction: column;
  
+
+ }
  }
