@@ -11,6 +11,7 @@
     justify-content: center;
     grid-template-columns: repeat (2,1fr);
     flex-direction: row;
+    grid-gap:10px
  
  }
  Button.Btu{
@@ -37,11 +38,12 @@ height: 70%!important;
 
 
  .CV{
-    max-width: 100%;
+    max-width: 90%;
  }
- .Button{
-    flex-direction: column;
  
+ .Button .Btu{
+    width:5rem;
+    height: 1.5rem
 
  }
  }

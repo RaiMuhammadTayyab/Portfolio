@@ -41,8 +41,10 @@ function CV2() {
       <div>
       <button className='Btu'onClick={()=>turnPage(Right)}>Next</button>
       <button  className='Btu'onClick={()=>turnPage(Left)}>Previous</button>
+      
       <button className='Btu'onClick={()=> setPageNumber(3)}>Appendix-A</button>
       <button className='Btu'onClick={()=> setPageNumber(7)}>Appendix-B</button>
+      
       </div>
       <div>
       <button className='Btu'onClick={()=> setPageNumber(9)}>Appendix-C</button>
