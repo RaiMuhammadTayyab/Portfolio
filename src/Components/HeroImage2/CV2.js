@@ -57,7 +57,7 @@ function CV2() {
       
       <div className="doc">
       <Document  file={Soh} onLoadSuccess={OnDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
+        <Page  margin={)}height={document.getElementsByClassName('PdfDiv')[0]?.clientHeight*0.8 ?? 150} pageNumber={pageNumber} />
     </Document>
     </div>
     </div>

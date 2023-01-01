@@ -10,7 +10,7 @@
     display:grid;
     justify-content: center;
     grid-template-columns: repeat (2,1fr);
-    flex-direction: column;
+    flex-direction: row;
  
  }
  Button.Btu{
@@ -24,19 +24,20 @@
         margin-bottom: 1.5rem;
  }
   
-.react-pdf__Page__canvas {
+/*.react-pdf__Page__canvas {
 margin: 0 auto;
 width: 70% !important;
 height: 70%!important;
 
 }
+*/
 
     
 @media screen and (max-width:640) {
 
 
  .CV{
-    max-width: 90%;
+    max-width: 100%;
  }
  
  }
