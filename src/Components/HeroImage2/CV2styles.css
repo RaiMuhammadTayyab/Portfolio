@@ -24,13 +24,13 @@
         margin-bottom: 1.5rem;
  }
   
-/*.react-pdf__Page__canvas {
+.react-pdf__Page__canvas {
 margin: 0 auto;
 width: 70% !important;
 height: 70%!important;
 
 }
-*/
+
 
     
 @media screen and (max-width:640) {
