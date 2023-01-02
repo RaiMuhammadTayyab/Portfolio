@@ -9,7 +9,7 @@ import CV2 from "../Components/HeroImage2/CV2"
     return(
 <div>
         <Navbar/>
-        <Heroimage2 Heading={"Dr Sohail Ahmad "} text={ "Curriculum-Vitae"}/>
+    <Heroimage2 Heading={"Dr Sohail Ahmad"} text={"Curriculum-Vitae"}/>
         <CV2/>
         <Footer/>
 

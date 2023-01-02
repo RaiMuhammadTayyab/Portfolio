@@ -22,7 +22,7 @@
     max-width: 100%;
     display:flex;
     flex-direction:column;
-    padding: 0.5rem;
+    padding:0.5rem; 
     padding-top: 0;
 }
 button{
@@ -38,7 +38,7 @@ margin-bottom: 1.5rem;
   
 .react-pdf__Page__canvas {
 margin: 0 auto;
-width: 70% !important;
+width: 60% !important;
 height: 70%!important;
 
 }
@@ -46,9 +46,7 @@ height: 70%!important;
 
     
 @media screen and (max-width:640) {
-    .CV{
-        margin-left: 5rem;
-    }
+    
  
  
  }
