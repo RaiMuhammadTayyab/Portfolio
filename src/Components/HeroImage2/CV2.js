@@ -35,22 +35,27 @@ function CV2() {
 
       //<button onClick={setPageNumber(pageNumber - 1)}>Previous</button>
   return (
-  
-      <div className='CV'>
-      <div className='Button'>
-      <div>
+    <>
+  <div className='CV'>
+      <div className='left'>
+        <div>
       <button className='Btu'onClick={()=>turnPage(Right)}>Next</button>
       <button  className='Btu'onClick={()=>turnPage(Left)}>Previous</button>
-      
+    </div>
+      <div>
       <button className='Btu'onClick={()=> setPageNumber(3)}>Appendix-A</button>
       <button className='Btu'onClick={()=> setPageNumber(7)}>Appendix-B</button>
-      
       </div>
-      <div>
+      </div>
+      <div  className="right">
+        <div>
       <button className='Btu'onClick={()=> setPageNumber(9)}>Appendix-C</button>
       <button className='Btu'onClick={()=> setPageNumber(11)}> Appendix-D</button>
+      </div>
+      <div>
       <button className='Btu'onClick={()=> setPageNumber(14)}>Appendix-E </button>
       <button className='Btu'onClick={()=> setPageNumber(16)}>Appendix-F </button>
+      </div>
       </div>
       </div>
       <div>
@@ -62,7 +67,7 @@ function CV2() {
         <Page  pageNumber={pageNumber} />
     </Document>
     </div>
-    </div>
+</>
   
   );
     
