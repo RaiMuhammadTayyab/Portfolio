@@ -1,18 +1,18 @@
 import React from 'react'
 import "./Formstyles.css"
-//import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-import {sendForm} from "emailjs-com"
+//import {sendForm} from "emailjs-com"
 require('dotenv').config()
 const SERVICE_ID =process.env.REACT_APP_SERVICE;
 const TEMPLATE_ID =process.env.REACT_APP_TEMPLATE;
 const USER_ID =process.env.REACT_APP_USER;
 //'WuoiEvYEaJQUTOLap'
-console.log(process.env.REACT_APP_USER)
+console.log(process.env.REACT_APP_SERVICE)
 const Form = () => {
   const handle_submit=(e)=>{
     e.preventDefault();
-  sendForm(SERVICE_ID,TEMPLATE_ID,e.target,USER_ID)
+  emailjs.sendForm(SERVICE_ID,TEMPLATE_ID,e.target,USER_ID)
       .then((result) => {
         console.log(result.text);
         Swal.fire({
