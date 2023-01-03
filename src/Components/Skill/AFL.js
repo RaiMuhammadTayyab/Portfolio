@@ -6,7 +6,7 @@ import HSC from "../../Assets/HSC.jpg"
 const ALL = () => {
   return (
    <div>
-     <h1 className='Head'> AFFILIATIONS</h1>
+     <h1 className='Head'> AFFILIATIONS.</h1>
     <div className= 'Container'>
 
     {ALLData.map((data,ind)=>{

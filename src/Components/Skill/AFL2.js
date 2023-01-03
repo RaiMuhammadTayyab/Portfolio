@@ -5,7 +5,7 @@ import { Data2 } from './AllData'
 const AFL2 = () => {
   return (
     <div>
-        <h1 className='Head'>AWARDS &SCHOLARSHIP</h1>
+        <h1 className='Head'>AWARDS &SCHOLARSHIP.</h1>
 <div className='Awd_con'>
     {Data2.map((item,ind)=>{
         return(
